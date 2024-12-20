@@ -47,8 +47,8 @@
   }
   
 #orange-circle a,
-#orange-circle b,
-#orange-circle c {
+#orange-circle #b,
+#orange-circle #c {
   position: absolute;
   height: 15%;
   width: 15%;
@@ -63,19 +63,19 @@
   border-color: #4d9bc8;
 }
 
-#orange-circle a {
+#orange-circle #a {
   transform: translate(-170%, -10%) rotate(0deg);
 }
-#orange-circle b {
+#orange-circle #b {
   transform: translate(-120%, -120%) rotate(0deg);
 }
-#orange-circle c {
+#orange-circle #c {
   transform: translate(-10%, -170%) rotate(0deg);
 }
 
-  #orange-circle a:hover,
-  #orange-circle b:hover,
-  #orange-circle c:hover {
+  #orange-circle #a:hover,
+  #orange-circle #b:hover,
+  #orange-circle #c:hover {
     background-color: #35084c; /* Slightly darker shade on hover */
     color: #793fca; /* Even darker text on hover */
     animation: morph 0.2s linear alternate;
@@ -281,3 +281,10 @@
       }
   }
   
+  /* Portfolio page button styling */
+
+.portButton {
+  position: relative;
+  height: 10vh;
+  width: 20%;
+}

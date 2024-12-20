@@ -1,0 +1,54 @@
+.grid {
+    z-index: +1;
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    z-index: +1;
+    height: 20px;
+    width: 20px;
+
+}
+.ending-block {
+    z-index: +1;
+    background-color: red;
+}
+
+.starting-block {
+    z-index: +1;
+    background-color: blue;
+}
+
+/* Log styling */
+.l1, .l2, .l3 {
+    z-index: +1;
+    background-color: brown;
+}
+
+/* Water styling */
+.l4, .l5 {
+    z-index: +1;
+    background-color: lightblue;
+}
+
+/* Car styling */
+.c1 {
+    z-index: +1;
+    background-color: black;
+}
+
+/* Road styling */
+.c2, .c3 {
+    z-index: +1;
+    background-color: gray;
+}
+
+/* Frog styling */
+.frog {
+    z-index: +1;
+    background-color: green;
+}
